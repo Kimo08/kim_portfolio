@@ -37,6 +37,7 @@ const Contact = () => {
     })
       .then((response) => console.log(response))
       .catch((error) => console.log(error));
+    alert("Form Submitted Successfully");
   };
 
   return (
